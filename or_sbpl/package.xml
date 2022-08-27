@@ -1,0 +1,17 @@
+<package format="2">
+  <name>or_sbpl</name>
+  <version>1.1.0</version>
+  <description>
+    OpenRAVE bindings for SBPL.
+  </description>
+  <url type="repository">https://github.com/personalrobotics/or_sbpl</url>
+  <maintainer email="jeking@cs.cmu.edu">Jennifer King</maintainer>
+  <author email="mkoval@cs.cmu.edu">Michael Koval</author>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>boost</build_depend>
+  <depend>openrave</depend>
+  <depend>openrave_catkin</depend>
+  <depend>sbpl</depend>
+  <depend>yaml-cpp</depend>
+</package>

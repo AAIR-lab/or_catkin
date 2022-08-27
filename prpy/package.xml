@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>prpy</name>
+  <version>4.0.0</version>
+  <description>
+    Python utilities used by the Personal Robotics Laboratory.
+  </description>
+  <url type="website">https://github.com/personalrobotics/prpy</url>
+  <url type="bugtracker">https://github.com/personalrobotics/prpy/issues</url>
+  <url type="repository">https://github.com/personalrobotics/prpy.git</url>
+  <maintainer email="mkoval@cs.cmu.edu">Michael Koval</maintainer>
+  <author email="mkoval@cs.cmu.edu">Michael Koval</author>
+  <author email="pkv@cs.cmu.edu">Pras Velagapudi</author>
+  <author email="jeking@cs.cmu.edu">Jennifer King</author>
+  <author email="siddh@cs.cmu.edu">Siddhartha Srinivasa</author>
+  <author email="cdellin@cs.cmu.edu">Chris Dellin</author>
+  <author email="sjavdani@cmu.edu">Shervin Javdani</author>
+  <author email="snikolai@andrew.cmu.edu">Stefanos Nikolaidis</author>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>python</depend>
+  <depend>rospy</depend>
+  <depend>python-catkin-pkg</depend>
+  <depend>python-enum</depend>
+  <depend>python-numpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>manipulation2</depend>
+  <depend>openrave</depend>
+  <depend>openrave_catkin</depend>
+  <depend>python-scipy</depend>
+  <depend>python-termcolor</depend>
+  <depend>python-trollius</depend>
+  <depend>python-rospkg</depend>
+  <depend>python-yaml</depend>
+  <depend>python-lxml</depend>
+  <depend>tsr</depend>
+  <test_depend>python-nose</test_depend>
+  <!-- These optional dependencies cause unit tests can fail if missing. -->
+  <test_depend>cbirrt2</test_depend>
+  <test_depend>tsr</test_depend>
+  <test_depend>or_cdchomp</test_depend>
+  <test_depend>or_ompl</test_depend>
+  <test_depend>or_parabolicsmoother</test_depend>
+  <test_depend>or_trajopt</test_depend>
+
+  <doc_depend>doxypy</doc_depend>
+</package>
